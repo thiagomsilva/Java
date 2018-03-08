@@ -8,10 +8,6 @@ public class Main {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws Exception {
 		
-		//Cafe bebida = new Cafe();
-		//Cha bebida = new Cha();
-		//bebida.preparar();
-		
 		String className;
 		try (Scanner scanner = new Scanner(new File("class_name.txt"))) {
 		 className = scanner.nextLine();
